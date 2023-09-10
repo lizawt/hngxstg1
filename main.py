@@ -15,7 +15,7 @@ async def get_endpoint(slack_name: str, track: str):
         "day_of_week": utc_time.strftime("%A"), 
         "current_utc_time": utc_time.strftime("%Y-%m-%dT%H:%M:%S"),
         "track": track,
-        "github_file_url": "https://github.com/lizawt/hngxstg1/..",
+        "github_file_url": "https://github.com/lizawt/hngxstg1/blob/main/main.py",
         "github_repo_url": "https://github.com/lizawt/hngxstg1",
         "status_code": 200
     }
