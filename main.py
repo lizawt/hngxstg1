@@ -13,7 +13,7 @@ async def get_endpoint(slack_name: str, track: str):
     response = {
         "slack_name": slack_name,
         "current_day": utc_time.strftime("%A"), 
-        "utc_time": utc_time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "utc_time": utc_time.strftime("%Y-%m-%dT%H:%M:%S")+"Z",
         "track": track,
         "github_file_url": "https://github.com/lizawt/hngxstg1/blob/main/main.py",
         "github_repo_url": "https://github.com/lizawt/hngxstg1",
